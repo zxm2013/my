@@ -1,4 +1,4 @@
-# Realtime Chat App (Advanced Local Edition)
+# Realtime Chat App (pro max)
 
 Production-style full-stack IM based on `MERN + Socket.IO + JWT + Zustand + Tailwind + DaisyUI`.
 
