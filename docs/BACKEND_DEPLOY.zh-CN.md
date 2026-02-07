@@ -7,8 +7,8 @@
 ### 1. 新建 Web Service
 
 - 平台：Render
-- 代码源：GitHub 仓库 `zxm2013/my`
-- Root Directory：`js/Real-time-chat-app-main/backend`（按你仓库结构调整）
+- 代码源：GitHub 仓库 `github.com/zxm2013/my`
+- Root Directory：`backend`
 - Runtime：`Node`
 - Build Command：`npm install`
 - Start Command：`npm start`
