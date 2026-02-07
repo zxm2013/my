@@ -2,7 +2,7 @@
 
 Production-style full-stack IM based on `MERN + Socket.IO + JWT + Zustand + Tailwind + DaisyUI`.
 
-中文文档入口: `https://github.com/zxm2013/my/docs/BACKEND_DEPLOY.zh-CN.md`
+中文文档入口: `[https://github.com/zxm2013/my/docs/BACKEND_DEPLOY.zh-CN.md](https://github.com/zxm2013/my/blob/main/docs/BACKEND_DEPLOY.zh-CN.md)'
 
 This repository is prepared for:
 
