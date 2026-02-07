@@ -93,7 +93,7 @@ npm start
 - Login fails across domains: verify `CORS_ORIGIN`, `COOKIE_SAMESITE=none`, `COOKIE_SECURE=true`.
 - Socket not connecting: verify `VITE_SOCKET_URL` points to backend root domain.
 
-### 1. Deploy frontend to Netlify
+## s Deploy frontend to Netlify
 
 One-click:
 
