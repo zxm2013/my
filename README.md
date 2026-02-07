@@ -78,6 +78,7 @@ Key values:
 - `MONGODB_URI=` (empty means auto in-memory MongoDB)
 - `CLOUDINARY_*` optional
 
+## Ubuntu 22.04/Debian 12+
 
 
 ## Backend Deployment (Fast)
