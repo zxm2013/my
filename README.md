@@ -78,10 +78,6 @@ Key values:
 - `MONGODB_URI=` (empty means auto in-memory MongoDB)
 - `CLOUDINARY_*` optional
 
-## Linux Deployment
-
-See `docs/LINUX_DEPLOY.md`.
-
 ## Pure Linux Deployment (Frontend + Backend)
 
 Use this when you want both frontend and backend hosted on one Linux server.
