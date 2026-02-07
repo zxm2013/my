@@ -54,37 +54,6 @@ Set Netlify env vars:
 
 Then redeploy Netlify.
 
-## Option C: Netlify Frontend + Backend API
-
-Use this when frontend is on Netlify and backend is on Render/VPS.
-
-### 1. Deploy frontend to Netlify
-
-One-click:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zxm2013/my)
-
-Or manual settings:
-
-- Base directory: `js/Real-time-chat-app-main/frontend`
-- Build command: `npm ci && npm run build`
-- Publish directory: `dist`
-
-### 2. Set Netlify env vars
-
-- `VITE_API_BASE_URL=https://<your-backend-domain>/api`
-- `VITE_SOCKET_URL=https://<your-backend-domain>`
-
-### 3. Set backend env vars for cross-site auth
-
-- `CORS_ORIGIN=https://<your-netlify-site>.netlify.app`
-- `COOKIE_SAMESITE=none`
-- `COOKIE_SECURE=true`
-
-### 4. Redeploy frontend
-
-After changing env vars, trigger a new Netlify deploy.
-
 ## Option B: Linux VPS (Fast Commands)
 
 ```bash
@@ -123,3 +92,30 @@ npm start
 - Blank frontend page: check Netlify env vars and redeploy frontend.
 - Login fails across domains: verify `CORS_ORIGIN`, `COOKIE_SAMESITE=none`, `COOKIE_SECURE=true`.
 - Socket not connecting: verify `VITE_SOCKET_URL` points to backend root domain.
+
+### 1. Deploy frontend to Netlify
+
+One-click:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zxm2013/my)
+
+Or manual settings:
+
+- Base directory: `js/Real-time-chat-app-main/frontend`
+- Build command: `npm ci && npm run build`
+- Publish directory: `dist`
+
+### 2. Set Netlify env vars
+
+- `VITE_API_BASE_URL=https://<your-backend-domain>/api`
+- `VITE_SOCKET_URL=https://<your-backend-domain>`
+
+### 3. Set backend env vars for cross-site auth
+
+- `CORS_ORIGIN=https://<your-netlify-site>.netlify.app`
+- `COOKIE_SAMESITE=none`
+- `COOKIE_SECURE=true`
+
+### 4. Redeploy frontend
+
+After changing env vars, trigger a new Netlify deploy.
