@@ -79,11 +79,10 @@ Key values:
 - `CLOUDINARY_*` optional
 
 ## Ubuntu 22.04/Debian 12+
-
-
+See [it](https://github.com/zxm2013/my/blob/main/docs/LINUX_DEPLOY.md);
 ## Backend Deployment (Fast)
 
-See `docs/BACKEND_DEPLOY.md` for deployer-focused steps and commands:
+See [it](https://github.com/zxm2013/my/blob/main/docs/BACKEND_DEPLOY.md) for deployer-focused steps and commands:
 
 - Render setup (recommended)
 - Linux VPS command flow
