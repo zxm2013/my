@@ -7,8 +7,8 @@ This guide is for deployers who want to launch backend fast.
 ### 1. Create Web Service
 
 - Provider: GitHub
-- Repository: `zxm2013/my`
-- Root Directory: `js/Real-time-chat-app-main/backend` (adjust if your repo root differs)
+- Repository: `github.com.zxm2013/my`
+- Root Directory: `backend`
 - Runtime: `Node`
 - Build Command: `npm install`
 - Start Command: `npm start`
